@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# **Project Name**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Table of Contents**
 
-## Available Scripts
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+5. [Running the Application](#running-the-application)
+6. [API Integration](#api-integration)
+7. [Environment Variables](#environment-variables)
+8. [Contact](#contact)
 
-In the project directory, you can run:
+## **Project Overview**
 
-### `npm start`
+Provide a brief description of the project, its purpose, and its key objectives.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Feature 1:** Brief description of feature 1.
+- **Feature 2:** Brief description of feature 2.
+- **Feature 3:** Brief description of feature 3.
 
-### `npm test`
+## **Technologies Used**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, Vue.js, etc.
+- **Backend:** Node.js, Express, Laravel, etc.
+- **Database:** MySQL, MongoDB, etc.
+- **Others:** Docker, Redis, etc.
 
-### `npm run build`
+## **Getting Started**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Prerequisites**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (version X.X.X or above)
+- npm (version X.X.X or above) or yarn
+- Any other software or tools needed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Installation**
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/sendevman/announcement-app.git
+   cd yourprojectname
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   If you are using npm:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+    Or if you are using yarn:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    yarn install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Running the Application**
 
-### Code Splitting
+1. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   For npm:
 
-### Analyzing the Bundle Size
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Or for yarn:
 
-### Making a Progressive Web App
+    ```bash
+    yarn start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Open your browser and navigate to:**
 
-### Advanced Configuration
+    ```bash
+    http://localhost:3000    
+    ```
+   The application should be up and running.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **API Integration**
 
-### Deployment
+Provide details about how the frontend interacts with the backend API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Example API Endpoint:**
 
-### `npm run build` fails to minify
+  ```bash
+  GET /api/announcement 
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This endpoint returns a paginated list of announcements in JSON format.
+
+
+## **Environment Variables**
+Create a .env file in the root directory and define the necessary environment variables. Example:
+
+  ```bash
+  REACT_APP_API_BASE_URL=http://localhost:8000/api
+  ```
+
+## **Contact**
+For any inquiries or issues, please contact Guimet Esteban.
+
+Email: cnat.diosat@gmail.com
+
+Phone number: 1 (323) 412 9324
